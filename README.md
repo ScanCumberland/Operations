@@ -28,3 +28,6 @@ Operational configs, playlists, and runbooks for live scanning in Cumberland Cou
 - `event_json/` (live events)
 - `RID_OUT/` (derived logs/exports)
 - Logs or keys/secrets
+
+## What's in / What's not in
+See tooling repo: https://github.com/ScanCumberland/Tools
