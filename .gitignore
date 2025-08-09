@@ -1,3 +1,12 @@
-node_modules/
-.env
+# Live SDR data and outputs
+/event_json/
+/RID_OUT/
 *.log
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.7z
