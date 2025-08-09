@@ -10,3 +10,21 @@ Thumbs.db
 # Archives
 *.zip
 *.7z
+
+# Node
+node_modules/
+bridge/node_modules/
+
+# Logs
+*.log
+bridge/log2json.js
+*.json
+
+# Environment templates
+.env
+*.env
+bridge/.env.template.env
+
+# Package manager lockfiles (optional)
+package-lock.json
+bridge/package-lock.json
