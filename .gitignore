@@ -15,16 +15,22 @@ Thumbs.db
 node_modules/
 bridge/node_modules/
 
-# Logs
+# Logs and scratch
 *.log
-bridge/log2json.js
-*.json
+bridge/logs/
+RID_OUT/
+event_json/
 
-# Environment templates
+# Local env (keep a template committed instead)
 .env
 *.env
-bridge/.env.template.env
+bridge/.env
+bridge/.env.local
+bridge/.env.development
 
-# Package manager lockfiles (optional)
-package-lock.json
-bridge/package-lock.json
+# Lockfiles (optional—commit if you want reproducible builds)
+# bridge/package-lock.json
+
+# Local scratch JSON (don’t block all JSON)
+bridge/testcall.json
+bridge/log2json.js
